@@ -21,9 +21,9 @@ Linux: you know what you are doing ;)
 
 #### Use Makefile:
 
-Initially use `make first` to create the containers and run the installation. After that you can use `make start` to start the containers and `make stop` to stop them. 
+Initially use `make create` to create the containers and run the installation. After that you can use `make start` to start the containers and `make stop` to stop them. 
 
-⚠️ **If you add dependecies to your project you have to run `make first` to install the packages. After that you can use `make start` again.**
+⚠️ **If you add dependecies to your project you have to run `make create` to install the packages. After that you can use `make start` again.**
 
 Note:
 If you are already familiar with Docker you can use the specific commands to start and manage the containers.

@@ -10,7 +10,7 @@ NODE_INSTALL := "npm i"
 FRONTEND_RUN := "npm run dev"
 BACKEND_RUN := "npm start"
 
-.PHONY: build install dev up start first stop restart clear
+.PHONY: build install dev up start create stop restart clear
 
 build:
 	$(DOCKER_COMPOSE) up --build --no-recreate -d
@@ -30,7 +30,7 @@ up:
 start: up dev
 	# this will up the docker env and run the npm run dev it
 
-first: build install dev
+create: build install dev
 	# this will build the env, up it and run the npm install and then run npm run dev it
 
 stop: $(ROOT_DIR)/docker-compose.yml
