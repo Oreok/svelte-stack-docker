@@ -20,6 +20,7 @@ Windows: [Chocolatey](https://community.chocolatey.org/packages/make)
 Linux: you know what you are doing ;)
 
 #### Use Makefile:
+⚠️ Under windows use the [Git Bash](https://gitforwindows.org/) to execute make, otherwise the Makefile doesn't work properly.
 
 Initially use `make create` to create the containers and run the installation. After that you can use `make start` to start the containers and `make stop` to stop them. 
 
